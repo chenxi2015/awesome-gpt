@@ -39,6 +39,7 @@
 <canvas id="canvas"></canvas>
 <input type="range" id="stroke-width" min="1" max="100" value="50">
 <input type="color" id="stroke-color" value="#ff0000">
+<button id="clear-button">Clear</button>
 <script>
   const canvas = document.getElementById('canvas');
   if (!canvas) {
@@ -84,6 +85,10 @@
       document.body.removeChild(a);
     });
     document.body.appendChild(saveButton);
+    const clearButton = document.getElementById('clear-button');
+    clearButton.addEventListener('click', () => {
+      ctx.clearRect(0, 0, canvas.width, canvas.height);
+    });
   }
 </script>
 </body>
