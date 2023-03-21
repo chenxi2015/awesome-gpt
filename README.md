@@ -12,7 +12,7 @@ This project is a collection of code and tools based on ChatGPT, GPT3.5, and GPT
 ## Contents
 
 ### Code Collection [code directory]
-- `inpainting.html`: A program that uses canvas to draw lines on the image background. You can change stroke width and color.
+1. [inpainting.html](code/inpainting.html) : A program that uses canvas to draw lines on the image background. You can change stroke width and color.
 
 ### Documentation
 1. GPT-3: The Moment of Deep Learning and Artificial Intelligence Explosion

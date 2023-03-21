@@ -12,7 +12,7 @@
 ## 内容
 
 ### 代码合集【code目录】
-- `inpainting.html` 利用canvas在图片背景绘画线条 可改变笔触宽度和颜色
+1. [inpainting.html](code/inpainting.html) 利用canvas在图片背景绘画线条 可改变笔触宽度和颜色
 
 ### 文档汇总
 1. GPT-3：深度学习与人工智能大爆发的时刻
